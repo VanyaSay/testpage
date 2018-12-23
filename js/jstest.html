@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>ff</title>
+		<meta charset="utf-8">
+		<script
+  src="https://code.jquery.com/jquery-3.3.1.min.js"
+  integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+  crossorigin="anonymous"></script>
+  <style type="text/css">
+  	.block{
+  		width: 400px;
+  		height: 400px;
+		  background: linear-gradient(to top, rgb(199, 35, 35), rgb(32, 17, 236));
+  	}
+  </style>
+	</head>
+	<body>
+		<div class="block"></div>
+
+		<script type="text/javascript">
+						
+
+
+
+
+
+
+			$("div").on('click',function(){		
+			var a=Math.floor(Math.random()*255);
+            var b=Math.floor(Math.random()*255);
+            var c=Math.floor(Math.random()*255);
+            var d=Math.floor(Math.random()*255);
+            var e=Math.floor(Math.random()*255);
+            var f=Math.floor(Math.random()*255);
+            $("div").css("background" , "linear-gradient(to top, rgb("+a+","+b+","+c+"), rgb("+d+","+e+","+f+")");
+			})
+		</script>
+	</body>
+	</html>
