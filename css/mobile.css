@@ -2,4 +2,88 @@
 	img {
 		max-width: 100%;
 	}
-	
+	.header_links {
+		display: none;
+	}
+	* {
+		max-width: 100%;
+	}
+	.changed {
+		display: flex;
+		width: 50%;
+		flex-direction: column;
+		background-color: aquamarine;
+		margin-right: 0;
+	}
+	.block_logos {
+		display: flex;
+		flex-direction: column;
+		height: auto;
+		align-items: center;
+	}
+	.mainblock_logos {
+		height: auto;
+	}
+	.mainblock_workproc {
+		height: auto;
+	}
+	.changed_menu {
+		display: block;
+		width: 50px;
+		height: 50px;
+		background: url(../images/removemenu.png);
+		background-size: cover;
+	}
+	.block_form1 {
+		display: block;
+	}
+	.mobilemenu {
+		display: block;
+		width: 50px;
+		height: 50px;
+		background: url(../images/menuicon.png);
+		background-size: cover;
+	}
+	.mainblock_form {
+		height: 725px;
+	}
+	.block2 {
+		flex-direction: column;
+	}
+	.onunder_header {
+		height: 400px;
+		margin: 0;
+	}
+	.hulf1_of_skills {
+		padding: 0;
+		width: 100%;
+	}
+	.mainblock_skills {
+		flex-direction: column;
+	}
+	.mainblock_skills img {
+		width: 100%;
+	}
+	.mainblock_services {
+		height: auto;
+		margin-top: 0;
+	}
+	.block_services {
+		flex-direction: column;
+	}
+	.miniblock_services  {
+		height: 185px;
+	}
+	.block_workimg a {
+		width: 100%;
+	}
+	.block_workimg {
+		flex-direction: column;
+	}
+	.mainblock_workimg {
+		height: 2000px;
+	}
+	.mainblock_result {
+		flex-direction: column;
+	}
+}
